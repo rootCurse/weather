@@ -1,0 +1,14 @@
+.info__container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+    border: 1px solid black;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.info__subcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

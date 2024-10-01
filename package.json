@@ -6,19 +6,34 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint:styles": "stylelint **/*.scss",
+    "lint:scripts": "eslint src/**/*.{ts,tsx,js,jsx} --fix"
   },
   "dependencies": {
+    "axios": "^1.7.7",
+    "cors-anywhere": "^0.4.4",
+    "next": "14.2.13",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.13"
+    "sass": "^1.79.4",
+    "zustand": "^5.0.0-rc.2"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.13"
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-next": "14.2.13",
+    "eslint-plugin-import": "^2.30.0",
+    "eslint-plugin-jsx-a11y": "^6.10.0",
+    "eslint-plugin-react": "^7.37.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "stylelint": "^16.9.0",
+    "stylelint-config-standard-scss": "^13.1.0",
+    "stylelint-order": "^6.0.4",
+    "stylelint-scss": "^6.7.0",
+    "typescript": "^5"
   }
 }
